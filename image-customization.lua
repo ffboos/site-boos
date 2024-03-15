@@ -10,7 +10,7 @@ features {
 	'ebtables-limit-arp',
 	'ebtables-source-filter',
 	'mesh-batman-adv-15',
-	'gluon-mesh-wireless-sae',
+	'gluon-mesh-wireless-sae',
 	'respondd',
 	'status-page',
 	'web-advanced',
