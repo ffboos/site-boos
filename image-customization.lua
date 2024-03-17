@@ -3,7 +3,7 @@ packages {'iwinfo'}
 features {
 	'autoupdater',
 	'config-mode-domain-select',
-	'config-mode-outdoor'
+	'config-mode-outdoor',
 	'config-mode-geo-location-osm',
 	'config-mode-mesh-vpn',
 	'config-mode-contact-info',
@@ -18,7 +18,7 @@ features {
 	'status-page',
 	'web-advanced',
 	'web-private-wifi',
-	'web-wizard'
+	'web-wizard',
 }
 
 if not device_class('tiny') then
