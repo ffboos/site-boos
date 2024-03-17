@@ -1,4 +1,4 @@
-packages {'iwinfo'}
+packages {'iwinfo', 'tcpdump' }
 
 features {
 	'autoupdater',
