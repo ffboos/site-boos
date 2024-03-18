@@ -1,17 +1,27 @@
-packages {'iwinfo', 'tcpdump' }
+packages {
+	'ff-ap-timer',
+	'ff-web-ap-timer',
+	'ffac-autoupdater-wifi-fallback',
+	'ffac-change-autoupdater',
+	'ffac-ssid-changer',
+	'ffmuc-ipv6-ra-filter',
+	'ffmuc-mesh-vpn-wireguard-vxlan',
+	'iwinfo',
+	'respondd-module-airtime',
+	'tcpdump',
+}
 
 features {
 	'autoupdater',
+	'config-mode-contact-info',
 	'config-mode-domain-select',
-	'config-mode-outdoor',
 	'config-mode-geo-location-osm',
 	'config-mode-mesh-vpn',
-	'config-mode-contact-info',
+	'config-mode-outdoor',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
 	'ebtables-limit-arp',
 	'ebtables-source-filter',
-	'ffmuc-mesh-vpn-wireguard-vxlan',
 	'mesh-batman-adv-15',
 	'mesh-wireless-sae',
 	'mesh-vpn-wireguard',
